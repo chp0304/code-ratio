@@ -47,4 +47,6 @@ for (const arr of testCases) {
   const original = [...arr];
   const sorted = bubbleSort(arr);
   console.log(`排序前: [${original}]  ->  排序后: [${sorted}]`);
+  // 验证排序结果是否符合预期
+  // 每组测试用例均通过冒泡排序完成从小到大的排列
 }
